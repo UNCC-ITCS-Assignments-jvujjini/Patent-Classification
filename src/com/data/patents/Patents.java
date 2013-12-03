@@ -16,7 +16,7 @@ public class Patents {
 	
 	public static ArrayList<Patent> get() throws IOException, ParseException {
 		
-		ArrayList<JSONObject> patents = JSONReader.readObjectsFromJSON("/home/jvujjini/Desktop/455Telecom.json");
+		ArrayList<JSONObject> patents = JSONReader.readObjectsFromJSON("455Telecom.json");
 		Patent p;
 		ArrayList<Patent> processedPatents = new ArrayList<Patent>(); 
 		TreeMap<String,Integer> uniqueClasses = new TreeMap<String,Integer>();
