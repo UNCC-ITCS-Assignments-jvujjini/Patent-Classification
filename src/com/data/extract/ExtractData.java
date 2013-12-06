@@ -23,7 +23,7 @@ public class ExtractData {
 			counter--;
 		}
 		
-		FileWriter f = new FileWriter("data-for-mallet");
+		FileWriter f = new FileWriter("data-for-mallet.txt");
 		
 		System.out.println("Starting to write to file...");
 		

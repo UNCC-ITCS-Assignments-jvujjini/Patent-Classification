@@ -36,7 +36,8 @@ public class Patents {
 		}
 		
 		for(Entry<String, Integer> entry : uniqueClasses.entrySet()) {
-			if(entry.getValue() > 300) {
+			//change the value below(200) to increase or decrease the input size(classes)
+			if(entry.getValue() > 200) {
 				processedClasses.add(entry.getKey());
 			}
 		}
